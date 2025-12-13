@@ -1,0 +1,171 @@
+1. Array and String Manipulation
+
+Reverse an array/string without using extra space.
+
+Find the largest/smallest element in an array.
+
+Find the second largest element in an array.
+
+Find the missing number in an array (e.g., from 1 to N, where one number is missing).
+
+Move all zeros to the end of the array without changing the order of non-zero elements.
+
+Find the "k-th" largest element in an unsorted array (e.g., using quickselect).
+
+Find duplicate elements in an array.
+
+Check if two strings are anagrams.
+
+Check if a string is a palindrome.
+
+2. Bit Manipulation
+
+In addition to common problems like set bit, clear bit, toggle, and checking if a bit is set, other bit manipulation problems may include:
+
+Count the number of set bits in an integer (Hamming weight).
+
+Find the position of the rightmost set bit in a number.
+
+Find the missing number from 1 to N using XOR.
+
+Find the only non-repeated number in an array where every other number repeats (XOR trick).
+
+Check if a number is a power of two (using n & (n - 1)).
+
+Swap two numbers using XOR (without a temporary variable).
+
+Reverse the bits of a number.
+
+3. Memory Management
+
+Dynamic memory allocation and deallocation (malloc, calloc, free).
+
+Implement a custom memory allocator (e.g., a basic version of malloc and free).
+
+Detect memory leaks using valgrind or similar tools.
+
+Write a function to zero out memory efficiently.
+
+Double-free or invalid free (detect and fix).
+
+Implement your own memcpy and memset.
+
+4. Linked Lists
+
+Reverse a singly linked list.
+
+Detect a cycle in a linked list (Floyd's cycle-finding algorithm).
+
+Find the intersection point of two linked lists.
+
+Find the middle element of a linked list.
+
+Detect a loop and find the start of the loop.
+
+Merge two sorted linked lists.
+
+Flatten a linked list (e.g., linked list of linked lists).
+
+Remove duplicates from an unsorted linked list.
+
+Find the length of a cycle in a linked list.
+
+5. Stacks and Queues
+
+Implement a stack using an array or linked list.
+
+Implement a queue using two stacks.
+
+Implement a stack with constant-time min operation.
+
+Implement a circular queue.
+
+Implement a priority queue (using arrays or heaps).
+
+Design a data structure to support push, pop, top, and retrieving the minimum element in constant time.
+
+Evaluate an expression given in reverse Polish notation (Postfix).
+
+7. Sorting and Searching
+
+Implement sorting algorithms like QuickSort, MergeSort, HeapSort, and RadixSort.
+
+Implement a binary search algorithm.
+
+Find the missing element in an array using binary search.
+
+Find the majority element in an array (element that appears more than n/2 times).
+
+Kth smallest/largest element in an unsorted array (e.g., using quickselect).
+
+Find the union and intersection of two arrays.
+
+8. Numerical Problems
+
+Find the factorial of a number using iteration and recursion.
+
+Check if a number is prime (efficient algorithms like trial division, Sieve of Eratosthenes).
+
+Count the number of divisors of a number.
+
+Find the GCD (Greatest Common Divisor) using Euclid's algorithm.
+
+Find the LCM (Least Common Multiple).
+
+Convert a number to binary, octal, or hexadecimal.
+
+Sum of digits of a number (using recursion and iteration).
+
+Check if a number is a perfect square.
+
+Find the Armstrong number (or narcissistic number).
+
+9. String and Pattern Matching
+
+Check if a string is a palindrome.
+
+Find the longest common substring in two strings.
+
+Implement regular expression matching.
+
+Find all permutations of a string.
+
+Find the longest substring without repeating characters.
+
+Implement string matching algorithms like KMP (Knuth-Morris-Pratt), Rabin-Karp, and Boyer-Moore.
+
+Find the length of the longest palindromic substring.
+
+10. Miscellaneous
+
+Implement the itoa() function (integer to ASCII string conversion).
+
+Design a circular buffer (a fixed-size queue).
+
+Calculate the power of a number efficiently (using exponentiation by squaring).
+
+Find the number of trailing zeros in a factorial.
+
+Implement your own strcmp() function (string comparison).
+
+Implement a basic printf function (handle %d, %s, etc.).
+
+11. Concurrency and Multithreading (Advanced)
+
+Producer-consumer problem using semaphores or mutexes.
+
+Implement a thread pool.
+
+Design a thread-safe data structure (e.g., stack, queue).
+
+Implement a lock-free linked list or a lock-free queue.
+
+Deadlock detection and resolution.
+
+12. Optimization and Performance Questions
+
+Time complexity analysis of various algorithms.
+
+Space complexity optimization (e.g., reducing memory usage).
+
+Write code that optimizes for speed and memory (in scenarios like large arrays, embedded systems).
