@@ -100,6 +100,18 @@ void reverse_string(char* str)
     printf("Reverse = %s\n", str);
 }
 
+char* my_strrev(char* str)
+{
+    char *start = str;
+    char *end = str + strlen(str) - 1;
+    while (start < end) {
+        char temp = *start;
+        *start++ = *end;
+        *end-- = temp;
+    }
+    return str;
+}
+
 /* Problem: Check if a string has more vowels than consonants and sum of digits */
 void good_string(char *str)
 {
@@ -139,6 +151,28 @@ void count_vowels_and_num(char* str)
         }
     }
     printf("Vowels: %d\n", vowels);
+}
+
+/* Problem: Reverse a sentence */
+void rev_sentence(char* str) {
+    char *words[100];
+    int count = 0;
+    
+    // Tokenize the string into words
+    char *token = strtok(str, " ");
+    while(token != NULL) {
+        words[count++] = token;
+        token = strtok(NULL, " ");
+    }
+    
+    // Print words in reverse order
+    for(int i = count - 1; i >= 0; i--) {
+        printf("%s", words[i]);
+        if (i > 0) {
+            printf(" ");  // Add space between words, but not after the last word
+        }
+    }
+    printf("\n");
 }
 
 int main()

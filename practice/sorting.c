@@ -23,7 +23,7 @@ void selection_sort(int arr[], int n)
         int min = i;
         for(int j = i +1 ; j< n ; j++)
         {
-            if(arr[j] > arr[min])
+            if(arr[j] < arr[min])
                 min = j;
         }
         if (min != i)
