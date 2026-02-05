@@ -31,6 +31,12 @@ int is_num_power_of_two(int n) {
     return n && !(n & (n - 1));
 }
 
+int swap(int *a, int* b) {
+    *a ^= *b;
+    *b ^= *a;
+    *a ^= *b;
+}
+
 int main() {
 	int num = 12;
     print_binary(num);
@@ -60,5 +66,8 @@ int main() {
     printf(")");
     
     printf("\n%d to power of 2 is: %d\n", 3, is_num_power_of_two(3));
+    int a =10, b = 80;
+    swap(&a,&b);
+    printf("After swaping: a = %d, b = %d\n", a, b);
     return 0;
 }
