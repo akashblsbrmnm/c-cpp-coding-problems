@@ -1,0 +1,2 @@
+1. Check if a number is strong or not
+2. Create a segfault
